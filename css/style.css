@@ -1,0 +1,55 @@
+/*font-family: 'Solitreo', cursive;*/
+header {
+    background-color: rgb(143, 226, 252);
+    grid-area: cabecera;
+}
+nav {
+    font-family: cursive;
+    background-color: rgb(143, 226, 252);
+    grid-area: navegacion;
+}
+main{
+grid-area: principal;
+}
+footer{
+grid-area: pie de pagina;
+}
+*{
+    padding: 0;
+    margin: 0;
+  }
+  p{ 
+    font-family: 'Solitreo', cursive;
+  }
+    main ul li {
+        font-family: 'Solitreo', cursive;
+    }
+  
+body{
+    background-color: rgb(109, 180, 255);
+
+}
+.centrar{
+    text-align: center;
+}
+nav a{
+    margin: 100px;
+}
+ p{
+    padding: 10px 30px;
+ }
+.container {
+    display: flex;
+    justify-content: center;
+}
+.imagen {
+    margin: 0 10px;
+}
+
+.logoafa {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 17px;
+    right: 50%;
+}
