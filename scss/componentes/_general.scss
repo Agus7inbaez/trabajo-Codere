@@ -1,0 +1,50 @@
+header{
+    background-color: rgb(143, 226, 252);
+    nav {
+        font-family: cursive;
+        background-color: rgb(143, 226, 252);
+    }
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-family: "solitreo" cursive;
+    padding: 10px 30px;
+}
+li{
+    list-style: none;
+}
+main {
+    ul {
+        li {
+            font-family: "solitreo" cursive;
+        }
+    }
+}
+ body{
+    background-color: rgb(109, 180, 255) ;
+ }
+ .centrar {
+    text-align: center;
+ }
+ nav {
+    a{
+        margin: 100px;
+    }
+ }
+.container {
+    display: flex;
+    justify-content: center;
+}
+.imagen {
+    margin: 0 10px;
+}
+.logoafa{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 17px;
+    right: 50%;
+}

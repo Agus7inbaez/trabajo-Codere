@@ -1,55 +1,56 @@
-/*font-family: 'Solitreo', cursive;*/
 header {
-    background-color: rgb(143, 226, 252);
-    grid-area: cabecera;
+  background-color: rgb(143, 226, 252);
 }
-nav {
-    font-family: cursive;
-    background-color: rgb(143, 226, 252);
-    grid-area: navegacion;
+header nav {
+  font-family: cursive;
+  background-color: rgb(143, 226, 252);
 }
-main{
-grid-area: principal;
-}
-footer{
-grid-area: pie de pagina;
-}
-*{
-    padding: 0;
-    margin: 0;
-  }
-  p{ 
-    font-family: 'Solitreo', cursive;
-  }
-    main ul li {
-        font-family: 'Solitreo', cursive;
-    }
-  
-body{
-    background-color: rgb(109, 180, 255);
 
+* {
+  padding: 0;
+  margin: 0;
 }
-.centrar{
-    text-align: center;
+
+p {
+  font-family: "solitreo" cursive;
+  padding: 10px 30px;
 }
-nav a{
-    margin: 100px;
+
+li {
+  list-style: none;
 }
- p{
-    padding: 10px 30px;
- }
+
+main ul li {
+  font-family: "solitreo" cursive;
+}
+
+body {
+  background-color: rgb(109, 180, 255);
+}
+
+.centrar {
+  text-align: center;
+}
+
+nav a {
+  margin: 100px;
+}
+
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
 .imagen {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .logoafa {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    top: 17px;
-    right: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 17px;
+  right: 50%;
 }
+
+/*# sourceMappingURL=style.css.map */
