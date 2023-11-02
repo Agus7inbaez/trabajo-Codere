@@ -32,16 +32,14 @@ body {
   text-align: center;
 }
 
-nav a {
-  margin: 100px;
-}
-
 .container {
   display: flex;
   justify-content: center;
 }
 
 .imagen {
+  width: 100px;
+  height: 100px;
   margin: 0 10px;
 }
 
@@ -51,6 +49,17 @@ nav a {
   justify-content: center;
   top: 17px;
   right: 50%;
+  height: 100px;
+}
+
+.banderaArg {
+  width: 100%;
+  height: 150px;
+}
+
+.copa {
+  width: 100%;
+  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,8 @@
 header{
-    background-color: rgb(143, 226, 252);
+    background-color: $bg-ppl;
     nav {
         font-family: cursive;
-        background-color: rgb(143, 226, 252);
+        background-color: $bg-ppl;
     }
 }
 * {
@@ -24,21 +24,18 @@ main {
     }
 }
  body{
-    background-color: rgb(109, 180, 255) ;
+    background-color: $bg-sec;
  }
  .centrar {
     text-align: center;
- }
- nav {
-    a{
-        margin: 100px;
-    }
  }
 .container {
     display: flex;
     justify-content: center;
 }
 .imagen {
+    width: 100px;
+    height: 100px;
     margin: 0 10px;
 }
 .logoafa{
@@ -47,4 +44,13 @@ main {
     justify-content: center;
     top: 17px;
     right: 50%;
+    height: 100px;
+}
+.banderaArg {
+    width: 100%;
+    height: 150px;
+}
+.copa {
+    width: 100%;
+    height: 500px;
 }
